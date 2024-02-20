@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-jbmr
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0075-tenant/tkrw-pr712-0075-0075-app/devfile-sample-jbmr@sha256:4e45be4d8b71cf4e50f00e23c5b565354e25d7df09d7612e86b20e5c7749c1c4
         name: my-nodejs
         ports:
         - containerPort: 3001
